@@ -115,7 +115,7 @@ class Player{
         this.pacmanU = pacmanSprites.pacmanU
         this.pacmanD = pacmanSprites.pacmanD
         this.pacmanI = pacmanSprites.pacmanInvulnerable
-        this.damagable = false;      
+        this.damagable = true;      
         this.superFeature = false; 
         this.superPauseFlag = false;
         this.lastDirection = null;
@@ -633,11 +633,11 @@ class Enemy{
 enemyRed = new Enemy(cellSize * 1.5 + 560, cellSize * 1.5 + 320, -5, 0, "red", 
 redGhostSprites.redGhostL,redGhostSprites.redGhostR,redGhostSprites.redGhostU,redGhostSprites.redGhostD);
 
-/* enemyGreen = new Enemy(cellSize * 1.5 + 480, cellSize * 1.5 + 320, 5, 0, "Green",
-blueGhostSprites.blueGhostL,blueGhostSprites.blueGhostR,blueGhostSprites.blueGhostU,blueGhostSprites.blueGhostD); */
+enemyGreen = new Enemy(cellSize * 1.5 + 480, cellSize * 1.5 + 320, 5, 0, "Green",
+blueGhostSprites.blueGhostL,blueGhostSprites.blueGhostR,blueGhostSprites.blueGhostU,blueGhostSprites.blueGhostD); 
 
 ghosts.push(enemyRed)
-//ghosts.push(enemyGreen) 
+ghosts.push(enemyGreen) 
 
 
 const ghostDirection = (player, ghost) => {
