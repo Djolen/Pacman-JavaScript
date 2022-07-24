@@ -396,7 +396,7 @@ blueGhostSprites.blueGhostU.src = "sprites/blueGhost/bgup.png"
 blueGhostSprites.blueGhostD.src = "sprites/blueGhost/bgdown.png"
 
 const scaredGhostSprite = new Image()
-scaredGhostSprite.src = "sprites/scaredGhost/scaredGhost.png"
+scaredGhostSprite.src = "sprites/scaredGhost/scaredghost.png"
 
 
 class Enemy{
