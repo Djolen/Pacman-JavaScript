@@ -65,19 +65,19 @@ const gridSprites = {
     spec3  : new Image(),
 }
 
-gridSprites.vertical.src = "../sprites/gridSprite/vertical.png"
-gridSprites.horizontal.src = "../sprites/gridSprite/horizontal.png"
-gridSprites.leftCorner.src = "../sprites/gridSprite/leftcorner.png"
-gridSprites.rightCorner.src = "../sprites/gridSprite/rightcorner.png"
-gridSprites.upLeft.src = "../sprites/gridSprite/upleft.png"
-gridSprites.upRight.src = "../sprites/gridSprite/upright.png"
-gridSprites.down.src = "../sprites/gridSprite/down.png"
-gridSprites.up.src = "../sprites/gridSprite/up.png"
-gridSprites.left.src = "../sprites/gridSprite/left.png"
-gridSprites.right.src = "../sprites/gridSprite/right.png"
-gridSprites.spec1.src = "../sprites/gridSprite/spec1.png"
-gridSprites.spec2.src = "../sprites/gridSprite/spec2.png"
-gridSprites.spec3.src = "../sprites/gridSprite/spec3.png"
+gridSprites.vertical.src = "sprites/gridSprite/vertical.png"
+gridSprites.horizontal.src = "sprites/gridSprite/horizontal.png"
+gridSprites.leftCorner.src = "sprites/gridSprite/leftcorner.png"
+gridSprites.rightCorner.src = "sprites/gridSprite/rightcorner.png"
+gridSprites.upLeft.src = "sprites/gridSprite/upleft.png"
+gridSprites.upRight.src = "sprites/gridSprite/upright.png"
+gridSprites.down.src = "sprites/gridSprite/down.png"
+gridSprites.up.src = "sprites/gridSprite/up.png"
+gridSprites.left.src = "sprites/gridSprite/left.png"
+gridSprites.right.src = "sprites/gridSprite/right.png"
+gridSprites.spec1.src = "sprites/gridSprite/spec1.png"
+gridSprites.spec2.src = "sprites/gridSprite/spec2.png"
+gridSprites.spec3.src = "sprites/gridSprite/spec3.png"
 
 /* PACMAN SPRITES */
 
@@ -90,12 +90,12 @@ const pacmanSprites = {
     pacmanInvulnerable : new Image(),
 }
 
-pacmanSprites.pacman.src = "../sprites/pacman/pacman.png"
-pacmanSprites.pacmanR.src = "../sprites/pacman/pacmanR.png"
-pacmanSprites.pacmanL.src = "../sprites/pacman/pacmanL.png"
-pacmanSprites.pacmanU.src = "../sprites/pacman/pacmanU.png"
-pacmanSprites.pacmanD.src = "../sprites/pacman/pacmanD.png"
-pacmanSprites.pacmanInvulnerable.src = "../sprites/pacman/pacmanInvulnerable.png"
+pacmanSprites.pacman.src = "sprites/pacman/pacman.png"
+pacmanSprites.pacmanR.src = "sprites/pacman/pacmanR.png"
+pacmanSprites.pacmanL.src = "sprites/pacman/pacmanL.png"
+pacmanSprites.pacmanU.src = "sprites/pacman/pacmanU.png"
+pacmanSprites.pacmanD.src = "sprites/pacman/pacmanD.png"
+pacmanSprites.pacmanInvulnerable.src = "sprites/pacman/pacmanInvulnerable.png"
 
 let imageSwap = 0; //parametar za "animaciju" usta pacmana
 
@@ -377,10 +377,10 @@ const redGhostSprites = {
     redGhostD : new Image(),
 }
 
-redGhostSprites.redGhostL.src = "../sprites/redGhost/rgleft.png"
-redGhostSprites.redGhostR.src = "../sprites/redGhost/rgright.png"
-redGhostSprites.redGhostU.src = "../sprites/redGhost/rgup.png"
-redGhostSprites.redGhostD.src = "../sprites/redGhost/rgdown.png"
+redGhostSprites.redGhostL.src = "sprites/redGhost/rgleft.png"
+redGhostSprites.redGhostR.src = "sprites/redGhost/rgright.png"
+redGhostSprites.redGhostU.src = "sprites/redGhost/rgup.png"
+redGhostSprites.redGhostD.src = "sprites/redGhost/rgdown.png"
 
 
 const blueGhostSprites = {
@@ -390,13 +390,13 @@ const blueGhostSprites = {
     blueGhostD : new Image(),
 }
 
-blueGhostSprites.blueGhostL.src = "../sprites/blueGhost/bgleft.png"
-blueGhostSprites.blueGhostR.src = "../sprites/blueGhost/bgright.png"
-blueGhostSprites.blueGhostU.src = "../sprites/blueGhost/bgup.png"
-blueGhostSprites.blueGhostD.src = "../sprites/blueGhost/bgdown.png"
+blueGhostSprites.blueGhostL.src = "sprites/blueGhost/bgleft.png"
+blueGhostSprites.blueGhostR.src = "sprites/blueGhost/bgright.png"
+blueGhostSprites.blueGhostU.src = "sprites/blueGhost/bgup.png"
+blueGhostSprites.blueGhostD.src = "sprites/blueGhost/bgdown.png"
 
 const scaredGhostSprite = new Image()
-scaredGhostSprite.src = "../sprites/scaredGhost/scaredGhost.png"
+scaredGhostSprite.src = "sprites/scaredGhost/scaredGhost.png"
 
 
 class Enemy{
